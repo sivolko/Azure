@@ -69,3 +69,26 @@ Compute is the term used for computing resources. Compute services hosted in Azu
 | Azure Functions                  | Develop serverless, event-driven applications, and stateful workflows                                                  |
 | Azure Container Apps             | Build and deploy fully managed modern apps and microservices using serverless containers                               |
 | Azure Kubernetes Service(AKS)    | Build managed Kubernetes containers on the cloud                                                                       |
+
+## Networking Services in Azure
+
+Networking services help secure both private and public cloud infrastructure. Users can customize their cloud networking setup and manage their network resources on demand.
+
+
+
+| Azure Networking      | What is it for?                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------ |
+| Azure Virtual Network | Connect virtual machines using VPN connections                                                   |
+| Azure Bastion         | Secure and easy access to your virtual machines using private RDF and SSH that are fully managed |
+| Azure Private Link    | Access cloud Azure-hosted services with privacy                                                  |
+| Azure Firewall        | Protect your resources in the cloud with high availability and low maintenance firewall          |
+| Azure Load Balancer   | Load balance your application connections and requests, both inbound and outbound                |
+| Azure ExpressRoute    | Create private network connections between Azure data centers and on-premises infrastructure     |
+| Azure Traffic Manager | Route your network traffic for better performance                                                |
+| Azure VPN Gateway     | Create secure private network connections in the cloud VPN                                       |
+
+## Core Azure Storage Services
+
+The storage services in Azure offer great storage for any type of data objects, Azure Virtual Machine disk storage, reliable messaging storage, and other modern data types. They provide the benefits of high availability, durability, security, accessibility, and manageability.
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Azure Storage A/c</p></figcaption></figure>

@@ -19,11 +19,9 @@
 ## Lab Guides
 
 * [📪 Using Azure CLI](lab-guides/using-azure-cli.md)
+* [Tasks](lab-guides/tasks/README.md)
+  * [🖥 For Developers](lab-guides/tasks/for-developers.md)
 
 ## Azure Cheatsheets
 
 * [🛠 Official Documentation for Azure Cli](azure-cheatsheets/official-documentation-for-azure-cli.md)
-
-## Tasks
-
-* [🖥 For Developers](tasks/for-developers.md)
