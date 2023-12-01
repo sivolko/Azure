@@ -171,29 +171,3 @@ Managing an Active Directory infrastructure in a hybrid environment Module&#x20;
 * creating and deploying runbook
 
 </details>
-
-## Quick links
-
-{% content-ref url="modules/module-1.md" %}
-[module-1.md](modules/module-1.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-## Get Started
-
-We've put together some helpful guides for you to get setup with our product quickly and easily.
-
-{% content-ref url="azure-cheatsheets/official-documentation-for-azure-cli.md" %}
-[official-documentation-for-azure-cli.md](azure-cheatsheets/official-documentation-for-azure-cli.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
