@@ -186,14 +186,14 @@ Managing an Active Directory infrastructure in a hybrid environment Module&#x20;
 
 We've put together some helpful guides for you to get setup with our product quickly and easily.
 
-{% content-ref url="azure-cheatsheets/getting-set-up/" %}
-[getting-set-up](azure-cheatsheets/getting-set-up/)
+{% content-ref url="azure-cheatsheets/official-documentation-for-azure-cli.md" %}
+[official-documentation-for-azure-cli.md](azure-cheatsheets/official-documentation-for-azure-cli.md)
 {% endcontent-ref %}
 
-{% content-ref url="azure-cheatsheets/getting-set-up/setting-permissions.md" %}
-[setting-permissions.md](azure-cheatsheets/getting-set-up/setting-permissions.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="azure-cheatsheets/getting-set-up/inviting-members.md" %}
-[inviting-members.md](azure-cheatsheets/getting-set-up/inviting-members.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

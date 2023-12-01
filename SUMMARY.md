@@ -18,16 +18,12 @@
 
 ## Lab Guides
 
-* [📪 Making a post](lab-guides/making-a-post.md)
-* [📎 Understanding Projects](lab-guides/understanding-projects.md)
+* [📪 Using Azure CLI](lab-guides/using-azure-cli.md)
 
 ## Azure Cheatsheets
 
-* [🛠 Getting set up](azure-cheatsheets/getting-set-up/README.md)
-  * [📝 Setting permissions](azure-cheatsheets/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](azure-cheatsheets/getting-set-up/inviting-members.md)
+* [🛠 Official Documentation for Azure Cli](azure-cheatsheets/official-documentation-for-azure-cli.md)
 
-## Use Cases
+## Tasks
 
-* [🎨 For Designers](use-cases/for-designers.md)
-* [🖥 For Developers](use-cases/for-developers.md)
+* [🖥 For Developers](tasks/for-developers.md)
