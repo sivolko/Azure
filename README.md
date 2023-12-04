@@ -1,15 +1,15 @@
 ---
-description: This is zero to hero outline of Azure course.
+description: >-
+  This is zero to hero outline of Azure course by Shubhendu for FITA Academy
+  Class
 ---
 
 # 👋 Welcome to Azure Course
 
+Perquisite **tip:**
 
-Perquisite **tip:**&#x20;
-
-* Azure Subscription&#x20;
-* Laptop with Azure Cli Installed&#x20;
-
+* Azure Subscription
+* Laptop with Azure Cli Installed
 
 ## Overview
 
@@ -23,62 +23,62 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary><strong>Module 1</strong> </summary>
+<summary><strong>Module 1</strong></summary>
 
-* Fundamentals of Cloud Computing&#x20;
-* How Cloud works? Cloud Computing vs Virtualization&#x20;
-* Cloud Hypervisor&#x20;
+* Fundamentals of Cloud Computing
+* How Cloud works? Cloud Computing vs Virtualization
+* Cloud Hypervisor
 * Types of Cloud Computing deployment model
 * Multi Cloud vs Hybrid Cloud
 * Cloud Computing Model IaaS, PaaS, SaaS, Serverless Function, Container and Data
-* Shared Responsibility Model&#x20;
+* Shared Responsibility Model
 
 </details>
 
 <details>
 
-<summary>Module 2 </summary>
+<summary>Module 2</summary>
 
-* Azure Fundamentals&#x20;
-* Azure Portal&#x20;
+* Azure Fundamentals
+* Azure Portal
 * Azure Management Group
 * Azure Subscriptions
-* Azure Resource Groups&#x20;
-* Azure Resources&#x20;
+* Azure Resource Groups
+* Azure Resources
 * Azure Resource Manager
-* Azure Geographies&#x20;
-* Azure Regions&#x20;
+* Azure Geographies
+* Azure Regions
 * Azure Availability Zones
-* Labs&#x20;
-
-</details>
-
-<details>
-
-<summary>Module 3 </summary>
-
-* Azure Networking&#x20;
-* Implementing and Managing Virtual Networks
-* Configuring VNET
-* VNET Peering&#x20;
-* Configure virtual Network connectivity.
-* Network Security Groups
-* Inbound/ Outbound rules&#x20;
-* Port access allow and Deny&#x20;
 * Labs
 
 </details>
 
 <details>
 
-<summary>Module 4 </summary>
+<summary>Module 3</summary>
+
+* Azure Networking
+* Implementing and Managing Virtual Networks
+* Configuring VNET
+* VNET Peering
+* Configure virtual Network connectivity.
+* Network Security Groups
+* Inbound/ Outbound rules
+* Port access allow and Deny
+* Labs
+
+</details>
+
+<details>
+
+<summary>Module 4</summary>
 
 * Azure Virtual Machines
 * Azure VM deployment
-* VM Configuration&#x20;
-* Disk Management&#x20;
+* VM Configuration
+* Disk Management
 * Desired state configuration (DSC)
-* Managing and Monitoring Azure VM&#x20;
+* Managing and Monitoring Azure VM
 * RDP access
 * Labs
 
@@ -86,13 +86,13 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 5 </summary>
+<summary>Module 5</summary>
 
-* Azure App Services&#x20;
-* Different types of App services&#x20;
-* Web Apps Implementation and Maintaining&#x20;
-* Web Apps configuration&#x20;
-* Monitoring webApps and WebJobs&#x20;
+* Azure App Services
+* Different types of App services
+* Web Apps Implementation and Maintaining
+* Web Apps configuration
+* Monitoring webApps and WebJobs
 * Implementing Traffic Manager
 * Labs
 
@@ -108,7 +108,7 @@ This course is divided into Modules and each modules contains different cloud st
 * Planning Storage
 * Azure CDN
 * Azure Backup
-* Azure Site Recovery implementation&#x20;
+* Azure Site Recovery implementation
 * Data Protection
 * Labs
 
@@ -118,10 +118,10 @@ This course is divided into Modules and each modules contains different cloud st
 
 <summary>Module 7</summary>
 
-* Azure Container Services&#x20;
-* Windows and Linux Containers in Azure&#x20;
+* Azure Container Services
+* Windows and Linux Containers in Azure
 * Deploying containers to Azure VMs
-* Implementing Azure Container Registry&#x20;
+* Implementing Azure Container Registry
 * Deploying multi container applications with Docker Compose to Azure VMs
 * Labs
 
@@ -140,22 +140,22 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 9 </summary>
+<summary>Module 9</summary>
 
 * Implementing Azure Active Directory
 * Creating and Managing Azure AD tenants
 * Configuration application and resource access with Azure AD
-* Overview of Azure AD Premium&#x20;
+* Overview of Azure AD Premium
 * SSO(single sign-on configuration )
-* RBAC for cloud resources&#x20;
+* RBAC for cloud resources
 
 </details>
 
 <details>
 
-<summary>Module 10 </summary>
+<summary>Module 10</summary>
 
-Managing an Active Directory infrastructure in a hybrid environment Module&#x20;
+Managing an Active Directory infrastructure in a hybrid environment Module
 
 </details>
 
@@ -163,11 +163,11 @@ Managing an Active Directory infrastructure in a hybrid environment Module&#x20;
 
 <summary>Module 11</summary>
 
-* Implementing Azure-based management and Automation&#x20;
+* Implementing Azure-based management and Automation
 * OMS Operation Management )suite solution
-* Azure Automation&#x20;
-* Implementing Azure automation runbooks&#x20;
-* Automation account configuration&#x20;
+* Azure Automation
+* Implementing Azure automation runbooks
+* Automation account configuration
 * creating and deploying runbook
 
 </details>
