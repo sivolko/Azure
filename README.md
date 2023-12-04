@@ -9,7 +9,7 @@ Perquisite **tip:**&#x20;
 
 * Azure Subscription&#x20;
 * Laptop with Azure Cli Installed&#x20;
-{% endhint %}
+
 
 ## Overview
 
