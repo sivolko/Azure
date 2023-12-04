@@ -4,7 +4,7 @@ description: This is zero to hero outline of Azure course.
 
 # 👋 Welcome to Azure Course
 
-{% hint style="info" %}
+
 Perquisite **tip:**&#x20;
 
 * Azure Subscription&#x20;
