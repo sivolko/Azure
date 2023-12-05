@@ -1,4 +1,4 @@
-# 💡 Module 1&#x20;
+# 💡 Module 1
 
 ## Fundamentals of Cloud Computing
 
@@ -23,7 +23,7 @@ Hypervisor technology is emerging as a vital tool in virtualizing resources and 
 
 eg:- Microsoft uses a native hypervisor on Azure called Azure Hypervisor
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>HyperVisor Technology</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>HyperVisor Technology</p></figcaption></figure>
 
 ## Types of cloud computing Deployment Model&#x20;
 
@@ -37,13 +37,13 @@ Common Types of Cloud deployment models&#x20;
 * Community Cloud&#x20;
 * Multi Cloud&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Cloud Computing Model</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Cloud Computing Model</p></figcaption></figure>
 
 ## <mark style="color:blue;">Public Cloud</mark>
 
 A public cloud infrastructure is available to the public or any organization using or selling cloud services. A public cloud platform is a service provided by cloud providers like Azure. The public cloud vendors offer cloud storage and computing resources (operating systems, CPU, memory, storage, web servers, applications, or databases) that are securely shared among its customers with other organizations or tenants of the cloud. The public cloud is offered to its users for a subscription fee or on a pay-as-you-go basis.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Public Cloud</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Public Cloud</p></figcaption></figure>
 
 Advantages:&#x20;
 

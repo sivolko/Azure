@@ -92,3 +92,90 @@ Networking services help secure both private and public cloud infrastructure. Us
 The storage services in Azure offer great storage for any type of data objects, Azure Virtual Machine disk storage, reliable messaging storage, and other modern data types. They provide the benefits of high availability, durability, security, accessibility, and manageability.
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Azure Storage A/c</p></figcaption></figure>
+
+## Core Azure Database Services
+
+| Azure Database service                            | What is it for?                                                                                    |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Azure SQL Database                                | Cloud-hosted SQL databases that are fully managed, intelligent, and secure                         |
+| Azure Cosmos DB                                   | Create and migrate NoSQL workloads to the cloud like Cassandra, MongoDB, and other NoSQL databases |
+| Azure Cache for Redis DB                          | Build fast and scalable applications with Redis in-memory data store                               |
+| Azure Database for PostgreSQL, MySQL, and MariaDB | Create fully managed and scalable databases for PostgresSQL, MySQL, and MariaDB                    |
+| Azure SQL Edge                                    | Build IoT edge-optimized SQL database engine with built-in AI                                      |
+
+## Identity Management and Security Services
+
+| Azure Identity or Security service | What is it for?                                                                                                                                               |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Microsoft Entra ID                 | Secure users’ identities and protect users of the entire organization using SSO and multi-factor authentication                                               |
+| Azure Information Protection       | Protect your sensitive information on the cloud                                                                                                               |
+| Azure Key Vault                    | Allows you to control, manage, and secure your keys, connection strings, and secrets                                                                          |
+| Microsoft Defender for Cloud       | Protect and detect threats for your workloads in Azure, on premises, and even in other cloud providers                                                        |
+| Microsoft Sentinel                 | Gather intelligent security information and event management (SIEM)  and security orchestration automated response (SOAR) solutions to protect your resources |
+| Azure DDoS Protection              | Protect applications in Azure from distributed denial of service (DDoS) attacks                                                                               |
+|                                    |                                                                                                                                                               |
+
+## Developer Tools, Monitoring, and DevOps Services
+
+| <p><br>Azure developer tools</p> | What is it for?                                                                                                                                     |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Azure DevOps                     | All-in-one tool with great DevOps services for teams to collaborate, share code, track work, and deliver software projects                          |
+| Azure DevTestLabs                | Quickly create environments using reusable templates and artifacts                                                                                  |
+| App Configuration                | Store your application’s configuration using scalable parameters                                                                                    |
+| Visual Studio                    | Develop, debug, deploy, manage, and diagnose cloud-scale applications on Azure, using a full-featured IDE                                           |
+| Visual Studio Code               | Write and debug code with a lightweight, fast code editor that runs on operating systems like Windows, Linux, and other supported operating systems |
+
+## Monitoring&#x20;
+
+| Azure monitoring tools | What is it for?                                                                                                                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Azure Monitor          | A great tool for maximizing application performance by collecting, analyzing, visualizing, and automating telemetry data in Azure and on-premises environments                        |
+| Application Insights   | Provides features useful for application performance management (APM) such as live monitoring and automatic detection of performance issues                                           |
+| Azure Advisor          | Innovative cloud assistance in Azure that helps you improve your deployments by recommending useful and actionable solutions to secure resources, save costs, and improve performance |
+| Log Analytics          | Allows you to edit, run log queries, and analyze the data collected by [Azure Monitor Logs](https://oreil.ly/wafvf)                                                                   |
+
+&#x20;Resource Management Concepts in Microsoft Azure\
+<img src="../.gitbook/assets/image.png" alt="" data-size="original">\
+Azure Management Groups
+-----------------------
+
+Azure management groups are the top level of the core structure for managing your cloud resources in Azure. The management groups are where Azure administrators manage everything about user access, compliance, and policies for subscriptions. The subscriptions within a management group automatically inherit the settings, conditions, and restrictions added in the group.
+
+Azure role-based access control (RBAC) for all resources and role definitions is supported in the root management groups.
+
+## Azure Subscriptions
+
+Subscriptions in Azure are like a big container for all user accounts and resources they have accessed or used within the subscription. Every subscription has a limit of resources that a certain user can create and use. As an organization, you can use subscriptions to control the monthly bill and resource costs in your organization or your own Azure account. Using Azure subscriptions, the organization can also control what resources the users create, update, or delete.
+
+## Azure Resource Groups
+
+Azure users can group their services or resources using Azure resource groups. A resource group in Microsoft Azure acts as a logical container where resources like servers, web applications, databases, storage, monitoring, etc., are deployed, managed, and stored. Do not confuse a resource group with an availability set in Azure. The availability set is the logical group for virtual machines (VMs).
+
+## Azure Resources
+
+The databases, servers, virtual machines, or web applications you create on the Azure platform are considered Azure resources. All resources or services you create must be added to a resource group. which acts as the logical container. In a resource group, you can have web apps, servers, monitoring, compute services, etc., in one place.
+
+![](<../.gitbook/assets/image (1).png>)\
+
+
+## Azure Resource Manager
+
+Azure Resource Manager (ARM) is also an important element in managing resources in Azure. ARM is the management and deployment service that provides users the capability to add, edit, and delete resources in Azure. By using ARM, the organization can manage user access control and organize resources securely even after deployment.
+
+ARM templates are commonly used to automate deployments and to implement infrastructure as code (IaC). Azure provides native support for IaC using the ARM templates and also Azure Bicep in the Azure Resource Manager.
+
+Terraform is also supported on Azure. IaC creates a great advantage, and it enables deployment automation of the infrastructure in the cloud. Using infrastructure as code, you can automate your deployment by generating templates for the same environment every time. The IaC process minimizes the problems of environment drift during development releases.
+
+## Azure Geographies
+
+Microsoft Azure has secured physical data centers worldwide in 140 countries. The global infrastructure of Azure, which also includes the infrastructure of Microsoft’s cloud platform, is important in providing reliable, secure, and innovative smart cloud solutions.
+
+## Azure Regions
+
+Azure regions play a vital role in cloud computing for adaptability because each country or region has unique restrictions, policies, compliance, and rules.\
+\
+![](<../.gitbook/assets/image (2).png>)
+
+## Azure Availability Zones
+
+An availability zone is composed of one or multiple data centers with independent facilities for power, networking, cooling, and support. The purpose of this isolation is to make sure that in case one of the zones stops working properly, the other zone continues to operate. These availability zones are connected and equipped with secure high-speed networks, which is important in running mission-critical resources for your computing, networking, storage, and data.
