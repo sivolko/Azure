@@ -56,7 +56,7 @@ Features of Azure Portal
 
 Compute is the term used for computing resources. Compute services hosted in Azure provide computing resources like operating systems, networking, disks, processors, and memory. These compute resources are available quickly and on-demand for users. Every application is unique. An application can have many workloads that need more than one compute service.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Compute Service </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Compute Service </p></figcaption></figure>
 
 
 
@@ -91,7 +91,7 @@ Networking services help secure both private and public cloud infrastructure. Us
 
 The storage services in Azure offer great storage for any type of data objects, Azure Virtual Machine disk storage, reliable messaging storage, and other modern data types. They provide the benefits of high availability, durability, security, accessibility, and manageability.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Azure Storage A/c</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Azure Storage A/c</p></figcaption></figure>
 
 ## Core Azure Database Services
 
@@ -135,9 +135,11 @@ The storage services in Azure offer great storage for any type of data objects, 
 | Log Analytics          | Allows you to edit, run log queries, and analyze the data collected by [Azure Monitor Logs](https://oreil.ly/wafvf)                                                                   |
 
 &#x20;Resource Management Concepts in Microsoft Azure\
-<img src="../.gitbook/assets/image.png" alt="" data-size="original">\
+\
 Azure Management Groups
 -----------------------
+
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 Azure management groups are the top level of the core structure for managing your cloud resources in Azure. The management groups are where Azure administrators manage everything about user access, compliance, and policies for subscriptions. The subscriptions within a management group automatically inherit the settings, conditions, and restrictions added in the group.
 
@@ -155,8 +157,10 @@ Azure users can group their services or resources using Azure resource groups. A
 
 The databases, servers, virtual machines, or web applications you create on the Azure platform are considered Azure resources. All resources or services you create must be added to a resource group. which acts as the logical container. In a resource group, you can have web apps, servers, monitoring, compute services, etc., in one place.
 
-![](<../.gitbook/assets/image (1).png>)\
+\
 
+
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Azure Resource Manager
 
@@ -174,7 +178,9 @@ Microsoft Azure has secured physical data centers worldwide in 140 countries. Th
 
 Azure regions play a vital role in cloud computing for adaptability because each country or region has unique restrictions, policies, compliance, and rules.\
 \
-![](<../.gitbook/assets/image (2).png>)
+
+
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Azure Availability Zones
 
