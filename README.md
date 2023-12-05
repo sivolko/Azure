@@ -23,7 +23,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary><strong>Module 1</strong></summary>
+<summary><a href="./#module-1"><strong>Module 1</strong></a></summary>
 
 * Fundamentals of Cloud Computing
 * How Cloud works? Cloud Computing vs Virtualization
@@ -37,7 +37,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 2</summary>
+<summary><a href="./#module-2">Module 2</a></summary>
 
 * Azure Fundamentals
 * Azure Portal
@@ -55,7 +55,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 3</summary>
+<summary><a href="./#module-3">Module 3</a></summary>
 
 * Azure Networking
 * Implementing and Managing Virtual Networks
@@ -71,7 +71,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 4</summary>
+<summary><a href="./#module-4">Module 4</a></summary>
 
 * Azure Virtual Machines
 * Azure VM deployment
@@ -86,7 +86,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 5</summary>
+<summary><a href="./#module-5">Module 5</a></summary>
 
 * Azure App Services
 * Different types of App services
@@ -100,7 +100,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 6</summary>
+<summary><a href="./#module-6">Module 6</a></summary>
 
 * Azure Storage Account
 * Types of Storage Account
@@ -116,7 +116,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 7</summary>
+<summary><a href="./#module-7">Module 7</a></summary>
 
 * Azure Container Services
 * Windows and Linux Containers in Azure
@@ -129,7 +129,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 8</summary>
+<summary><a href="./#module-8">Module 8</a></summary>
 
 * Implementing Azure Cloud Services
 * Planning and deploying Azure cloud services
@@ -140,7 +140,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 9</summary>
+<summary><a href="./#module-9">Module 9</a></summary>
 
 * Implementing Azure Active Directory
 * Creating and Managing Azure AD tenants
@@ -153,7 +153,7 @@ This course is divided into Modules and each modules contains different cloud st
 
 <details>
 
-<summary>Module 10</summary>
+<summary><a href="./#module-10">Module 10</a></summary>
 
 Managing an Active Directory infrastructure in a hybrid environment Module
 
@@ -161,7 +161,7 @@ Managing an Active Directory infrastructure in a hybrid environment Module
 
 <details>
 
-<summary>Module 11</summary>
+<summary><a href="./#module-11">Module 11</a></summary>
 
 * Implementing Azure-based management and Automation
 * OMS Operation Management )suite solution
