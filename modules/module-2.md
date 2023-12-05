@@ -56,7 +56,7 @@ Features of Azure Portal
 
 Compute is the term used for computing resources. Compute services hosted in Azure provide computing resources like operating systems, networking, disks, processors, and memory. These compute resources are available quickly and on-demand for users. Every application is unique. An application can have many workloads that need more than one compute service.
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Compute Service </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>Compute Service </p></figcaption></figure>
 
 
 
@@ -91,7 +91,7 @@ Networking services help secure both private and public cloud infrastructure. Us
 
 The storage services in Azure offer great storage for any type of data objects, Azure Virtual Machine disk storage, reliable messaging storage, and other modern data types. They provide the benefits of high availability, durability, security, accessibility, and manageability.
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Azure Storage A/c</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Azure Storage A/c</p></figcaption></figure>
 
 ## Core Azure Database Services
 
@@ -160,7 +160,7 @@ The databases, servers, virtual machines, or web applications you create on the 
 \
 
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Azure Resource Manager
 
@@ -180,7 +180,7 @@ Azure regions play a vital role in cloud computing for adaptability because each
 \
 
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Azure Availability Zones
 

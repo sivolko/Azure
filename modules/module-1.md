@@ -23,7 +23,7 @@ Hypervisor technology is emerging as a vital tool in virtualizing resources and 
 
 eg:- Microsoft uses a native hypervisor on Azure called Azure Hypervisor
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>HyperVisor Technology</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>HyperVisor Technology</p></figcaption></figure>
 
 ## Types of cloud computing Deployment Model&#x20;
 
@@ -37,13 +37,13 @@ Common Types of Cloud deployment models&#x20;
 * Community Cloud&#x20;
 * Multi Cloud&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Cloud Computing Model</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Cloud Computing Model</p></figcaption></figure>
 
 ## <mark style="color:blue;">Public Cloud</mark>
 
 A public cloud infrastructure is available to the public or any organization using or selling cloud services. A public cloud platform is a service provided by cloud providers like Azure. The public cloud vendors offer cloud storage and computing resources (operating systems, CPU, memory, storage, web servers, applications, or databases) that are securely shared among its customers with other organizations or tenants of the cloud. The public cloud is offered to its users for a subscription fee or on a pay-as-you-go basis.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Public Cloud</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>Public Cloud</p></figcaption></figure>
 
 Advantages:&#x20;
 
@@ -59,7 +59,7 @@ Advantages:&#x20;
 
 A private cloud infrastructure is operated and owned by one organization: on premises or off premises. An organization utilizing private clouds uses cloud computing technology with considerations for privacy and security. This means that access to the resources in the IT infrastructure within the organization is centralized. Trust boundaries define the organization’s administration of private clouds.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Private Cloud </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Private Cloud </p></figcaption></figure>
 
 Advantages:
 
@@ -72,7 +72,7 @@ Advantages:
 
 A hybrid cloud is a type of cloud infrastructure composed of multiple clouds, a combination of private, public, or community clouds.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Hybrid Cloud </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Hybrid Cloud </p></figcaption></figure>
 
 ## <mark style="color:blue;">Multi Cloud</mark>
 
@@ -91,7 +91,7 @@ Advantages:
 
 ## Cloud Computing Service Model&#x20;
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">Shared Responsibility Model</mark>&#x20;
 
@@ -118,4 +118,4 @@ SaaS is a software on-demand cloud model where the cloud service providers give 
 
 eg:- Salesforce, Microsoft 365, Dropbox, OneDrive, Google Workspace
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Shared Responsibility Model </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>Shared Responsibility Model </p></figcaption></figure>

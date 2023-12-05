@@ -66,13 +66,13 @@ After you sign in to the [Azure portal](https://portal.azure.com/), you can crea
 3. On the overview page, select **Manage tenants**.
 4. Select **Create**.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 1. On the Basics tab, select the type of tenant you want to create, either **Microsoft Entra ID** or **Microsoft Entra ID (B2C)**.
 2. Select **Next: Configuration** to move to the Configuration tab.
 3. On the Configuration tab, enter the following information:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1.
    * Type your desired Organization name (for example _Contoso Organization_) into the **Organization name** box.
@@ -89,7 +89,7 @@ If you're not going to continue to use this application, you can delete the tena
 
     The tenant and its associated information are deleted.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Add your custom domain name to your tenant <a href="#add-your-custom-domain-name-to-your-tenant" id="add-your-custom-domain-name-to-your-tenant"></a>
 
@@ -110,15 +110,15 @@ Create your new directory by following the steps in [Create a new tenant for you
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/) as at least a [Domain Name Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#domain-name-administrator).
 2. Browse to **Identity** > **Settings** > **Domain names** > **Add custom domain**.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 In **Custom domain name**, enter your organization's domain, in this example, _contoso.com_. Select **Add domain**.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 The unverified domain is added. The **contoso.com** page appears showing the DNS information needed to validate your domain ownership. Save this information.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Verify your custom domain name
 
@@ -130,11 +130,11 @@ To verify your custom domain name, follow these steps:
 2. Browse to **Identity** > **Settings** > **Domain names**.
 3. In **Custom domain names**, select the custom domain name. In this example, select **contoso.com**.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 On the **contoso.com** page, select **Verify** to make sure your custom domain is properly registered and is valid.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Associate or add an Azure subscription to your Microsoft Entra tenant <a href="#associate-or-add-an-azure-subscription-to-your-microsoft-entra-tenant" id="associate-or-add-an-azure-subscription-to-your-microsoft-entra-tenant"></a>
 
@@ -144,7 +144,7 @@ When a user signs up for a Microsoft cloud service, a new Microsoft Entra tenant
 
 While users may only have a single authentication _home_ directory, users may participate as guests in multiple directories. You can see both the home and guest directories for each user in Microsoft Entra ID.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Associate a subscription to a directory <a href="#associate-a-subscription-to-a-directory" id="associate-a-subscription-to-a-directory"></a>
 
@@ -155,19 +155,19 @@ To associate an existing subscription with your Microsoft Entra ID, follow these
 3. Select the name of the subscription you want to use.
 4.  Select **Change directory**.
 
-    <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
     Review any warnings that appear, and then select **Change**.
 
 
 
-    <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
     After the directory is changed for the subscription, you'll get a success message.
 
     Select Switch directories on the subscription page to go to your new directory.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## What is application management in Microsoft Entra ID? <a href="#what-is-application-management-in-microsoft-entra-id" id="what-is-application-management-in-microsoft-entra-id"></a>
 
@@ -188,7 +188,7 @@ There are several ways that you might manage applications in Microsoft Entra ID.
 
 The following image shows how these applications interact with Microsoft Entra ID.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Pre-integrated applications <a href="#pre-integrated-applications" id="pre-integrated-applications"></a>
 
@@ -223,7 +223,7 @@ To add an enterprise application to your tenant:
 \
 
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Enter a name that you want to use to recognize the instance of the application. For example, `Azure AD SAML Toolkit 1`.
 2. Select **Create**.
@@ -283,7 +283,7 @@ There are several ways you can configure an application for SSO. Choosing an SSO
 
 This flowchart can help you decide which SSO method is best for your situation.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 The following SSO protocols are available to use:
 

@@ -307,11 +307,7 @@ The decoupled design of microservices combined with the atomicity of containers 
 
 Kubernetes is a portable, extensible open-source platform for your management and orchestration of containerized workloads. Kubernetes simplifies complex container-management tasks and provides you with declarative configuration to orchestrate containers in different computing environments. This orchestration platform gives you the same ease of use and flexibility you might already know from platform as a service (PaaS) or infrastructure as a service (IaaS) offerings.
 
-
-
-
-
-
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## What is container management?
 
@@ -328,3 +324,199 @@ The drone-tracking app consists of multiple microservices responsible for tasks 
 
 A container orchestrator is a system that automatically deploys and manages containerized apps. As part of management, the orchestrator handles scaling dynamic changes in the environment to increase or decrease the number of deployed instances of the app. It also ensures all deployed container instances are updated when a new version of a service is released.
 
+### Kubernetes benefits <a href="#kubernetes-benefits" id="kubernetes-benefits"></a>
+
+* Self-healing of containers; for example, restarting containers that fail or replacing containers
+* Scaling deployed container count up or down dynamically, based on demand
+* Automating rolling updates and rollbacks of containers
+* Managing storage
+* Managing network traffic
+* Storing and managing sensitive information such as usernames and passwords
+
+## How Kubernetes works?
+
+### What is a computer cluster? <a href="#what-is-a-computer-cluster" id="what-is-a-computer-cluster"></a>
+
+A cluster is a set of computers that you configure to work together and view as a single system. The computers configured in the cluster handle the same kinds of tasks. For example, they'll all host websites, APIs, or run compute-intensive work.
+
+A cluster uses centralized software that's responsible for scheduling and controlling these tasks. The computers in a cluster that run the tasks are called _nodes_, and the computers that run the scheduling software are called control _planes_.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+## Kubernetes architecture
+
+Recall from earlier that an orchestrator is a system that deploys and manages apps. You also learned that a cluster is a set of computers that work together and are viewed as a single system. You use Kubernetes as the orchestration and cluster software to deploy your apps and respond to changes in compute resource needs.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+A Kubernetes cluster contains at least one main plane and one or more nodes. Both the control planes and node instances can be physical devices, virtual machines, or instances in the cloud. The default host OS in Kubernetes is Linux, with default support for Linux-based workloads.
+
+## Kubernetes control plane
+
+The Kubernetes control plane in a Kubernetes cluster runs a collection of services that manage the orchestration functionality in Kubernetes.
+
+From a learning perspective, it makes sense to use a single control plane in your test environment as you explore Kubernetes functionality. However, in production and cloud deployments such as Azure Kubernetes Service (AKS), you find that the preferred configuration is a high-availability deployment with three to five replicated control planes.\
+\
+**Kubernetes node**
+
+A node in a Kubernetes cluster is where your compute workloads run. Each node communicates with the control plane via the API server to inform it about state changes on the node.
+
+## Services that run on a control plane
+
+Kubernetes relies on several administrative services running on the control plane. These services manage aspects such as cluster-component communication, workload scheduling, and cluster-state persistence.\
+
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+The following services make up a Kubernetes cluster's control plane:
+
+* API server
+* Backing store
+* Scheduler
+* Controller manager
+* Cloud controller manager
+
+#### What is the API server? <a href="#what-is-the-api-server" id="what-is-the-api-server"></a>
+
+You can think of the API server as the front end to your Kubernetes cluster's control plane. All the communication between the components in Kubernetes is done through this API.
+
+This API exposes a RESTful API that you can use to post commands or YAML-based configuration files. YAML is a human-readable, data serialization standard for programming languages. You use YAML files to define the intended state of all the objects within a Kubernetes cluster.
+
+## What is the backing store? <a href="#what-is-the-backing-store" id="what-is-the-backing-store"></a>
+
+The backing store is a persistent storage in which your Kubernetes cluster saves its completed configuration. Kubernetes uses a high-availability, distributed, and reliable key-value store called `etcd`. This key-value store stores the current state and the desired state of all objects within your cluster.
+
+## What is the scheduler? <a href="#what-is-the-scheduler" id="what-is-the-scheduler"></a>
+
+The scheduler is the component that's responsible for the assignment of workloads across all nodes. The scheduler monitors the cluster for newly created containers and assigns them to nodes.
+
+## What is the controller manager? <a href="#what-is-the-controller-manager" id="what-is-the-controller-manager"></a>
+
+The controller manager launches and monitors the controllers configured for a cluster through the API server.
+
+Kubernetes uses controllers to track object states in the cluster. Each controller runs in a nonterminating loop while watching and responding to events in the cluster. For example, there are controllers to monitor nodes, containers, and endpoints.
+
+The controller communicates with the API server to determine the object's state. If the current state is different from the wanted state of the object, the controller takes action to ensure the wanted state.
+
+## What is the cloud controller manager?
+
+The cloud controller manager integrates with the underlying cloud technologies in your cluster when the cluster is running in a cloud environment. These services can be load balancers, queues, and storage, for example.
+
+## Services that run on a node <a href="#services-that-run-on-a-node" id="services-that-run-on-a-node"></a>
+
+The following services run on the Kubernetes node:
+
+* Kubelet
+* Kube-proxy
+* Container runtime
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+## What is the kubelet?
+
+The kubelet is the agent that runs on each node in the cluster and monitors work requests from the API server. It makes sure that the requested unit of work is running and healthy.
+
+The kubelet monitors the nodes and makes sure that the containers scheduled on each node run as expected. The kubelet manages only containers Kubernetes creates. It isn't responsible for rescheduling work to run on other nodes if the current node can't run the work.
+
+## What is kube-proxy?
+
+The kube-proxy component is responsible for local cluster networking, and runs on each node. It ensures that each node has a unique IP address. It also implements rules to handle routing and load balancing of traffic by using iptables and IPVS.
+
+This proxy doesn't provide DNS services by itself. A DNS cluster add-on based on CoreDNS is recommended and installed by default.
+
+## What is the container runtime?
+
+The container runtime is the underlying software that runs containers on a Kubernetes cluster. The runtime is responsible for fetching, starting, and stopping container images. Kubernetes supports several container runtimes, including but not limited to Docker, containerd, rkt, CRI-O, and frakti. The support for many container runtime types is based on the Container Runtime Interface (CRI). The CRI is a plug-in design that enables the kubelet to communicate with the available container runtime.
+
+The default container runtime in AKS is containerd, an industry-standard container runtime.
+
+## Kubernetes pods
+
+A pod represents a single instance of an app running in Kubernetes. The workloads that you run on Kubernetes are containerized apps. Unlike in a Docker environment, you can't run containers directly on Kubernetes. You package the container into a Kubernetes object called a pod. A pod is the smallest object that you can create in Kubernetes.
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+A single pod can hold a group of one or more containers. However, a pod typically doesn't contain multiples of the same app.
+
+A pod includes information about the shared storage and network configuration and a specification about how to run its packaged containers. You use pod templates to define the information about the pods that run in your cluster. Pod templates are YAML-coded files that you reuse and include in other objects to manage pod deployments.
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+## Lifecycle of a Kubernetes pod <a href="#lifecycle-of-a-kubernetes-pod" id="lifecycle-of-a-kubernetes-pod"></a>
+
+Kubernetes pods have a distinct lifecycle that affects the way you deploy, run, and update pods. You start by submitting the pod YAML manifest to the cluster. After the manifest file is submitted and persisted to the cluster, it defines the desired state of the pod. The scheduler schedules the pod to a healthy node that has enough resources to run the pod.
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+## Deploy a container instance in Azure using the Azure portal <a href="#quickstart-deploy-a-container-instance-in-azure-using-the-azure-portal" id="quickstart-deploy-a-container-instance-in-azure-using-the-azure-portal"></a>
+
+Use Azure Container Instances to run serverless Docker containers in Azure with simplicity and speed. Deploy an application to a container instance on-demand when you don't need a full container orchestration platform like Azure Kubernetes Service.
+
+In this quickstart, you use the Azure portal to deploy an isolated Docker container and make its application available with a fully qualified domain name (FQDN). After configuring a few settings and deploying the container, you can browse to the running application:
+
+Steps:
+
+* Sign in to the [Azure portal](https://portal.azure.com/).
+* Create a container instance
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+* Select Containers > Container Instances.
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+On the **Basics** page, choose a subscription and enter the following values for **Resource group**, **Container name**, **Image source**, and **Container image**.
+
+* Resource group: **Create new** > `myresourcegroup`
+* Container name: `mycontainer`
+* Image source: **Quickstart images**
+* Container image: `mcr.microsoft.com/azuredocs/aci-helloworld:latest` (Linux)
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+Leave the other values as their defaults, then select **Next: Networking**.
+
+On the **Networking** page, specify a **DNS name label** for your container. The name must be unique within the Azure region where you create the container instance. Your container will be publicly reachable at `<dns-name-label>.<region>.azurecontainer.io`. If you receive a "DNS name label not available" error message, try a different DNS name label.
+
+An auto-generated hash is added as a DNS name label to your container instance's fully qualified domain name (FQDN), which prevents malicious subdomain takeover. Specify the **DNS name label scope reuse** for the FQDN. You can choose one of these options:
+
+* Tenant
+* Subscription
+* Resource Group
+* No reuse
+* Any reuse (This option is the least secure.)
+
+For this example, select **Tenant**.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+Leave all other settings as their defaults, then select **Review + create**.
+
+When the validation completes, you're shown a summary of the container's settings. Select **Create** to submit your container deployment request.
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+Open the overview for the container group by navigating to **Resource Groups** > **myresourcegroup** > **mycontainer**. Make a note of the **FQDN** of the container instance and its **Status**.
+
+\
+
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+Once its **Status** is _Running_, navigate to the container's FQDN in your browser.
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+### View container logs <a href="#view-container-logs" id="view-container-logs"></a>
+
+Viewing the logs for a container instance is helpful when troubleshooting issues with your container or the application it runs.
+
+To view the container's logs, under **Settings**, select **Containers** > **Logs**. You should see the HTTP GET request generated when you viewed the application in your browser.
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+### Clean up resources <a href="#clean-up-resources" id="clean-up-resources"></a>
+
+When you're done with the container, select **Overview** for the _mycontainer_ container instance, then select **Delete**.
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
